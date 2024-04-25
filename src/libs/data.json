@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "title": "Labiales",
+    "img": "https://images.pexels.com/photos/2533266/pexels-photo-2533266.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Consultar precio y stock"
+  },
+  {
+    "id": 2,
+    "title": "Esmaltes",
+    "img": "https://images.pexels.com/photos/1667071/pexels-photo-1667071.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Consultar precio y stock"
+  },
+  {
+    "id": 3,
+    "title": "Mascaras",
+    "img": "https://images.pexels.com/photos/2697786/pexels-photo-2697786.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Consultar precio y stock"
+  },
+  {
+    "id": 4,
+    "title": "Esencias",
+    "img": "https://images.pexels.com/photos/3259600/pexels-photo-3259600.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Consultar precio y stock"
+  },
+  {
+    "id": 5,
+    "title": "Cremas",
+    "img": "https://images.pexels.com/photos/3785147/pexels-photo-3785147.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Consultar precio y stock"
+  },
+  {
+    "id": 6,
+    "title": "Fragancias",
+    "img": "https://images.pexels.com/photos/2629277/pexels-photo-2629277.jpeg?auto=compress&cs=tinysrgb&w=600",
+    "description": "Consultar precio y stock"
+  }
+]

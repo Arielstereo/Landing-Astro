@@ -1,0 +1,29 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Navbar from '@components/Navbar';
+import ProductSection from '@components/ProductSection.astro';
+import AboutSection from '@components/AboutSection.astro'
+import Footer from '@components/Footer.astro'
+import WspButton from '@components/WspButton.astro'
+import Hero from '@components/Hero.astro';
+import ServicesSection from '@components/ServicesSection.astro';
+import ContactSection from '@components/ContactSection.astro';
+import Location from '@components/Location.astro';
+
+---
+
+<Layout title="Mi Tienda">
+	<main>
+		<Navbar client:load />
+		<Hero />
+		<div class="px-0 md:px-8">
+			<ProductSection />
+			<ServicesSection />
+			<AboutSection />
+			<ContactSection />
+			<Location />
+		</div>
+		<Footer />
+		<WspButton />
+	</main>
+</Layout>
