@@ -8,7 +8,7 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="w-full fixed bg-[#F1666A] z-50 top-0 py-2 shadow-lg shadow-black">
+    <nav className="w-full fixed bg-pink-400 z-50 top-0 py-2 shadow-lg shadow-black">
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 md:px-32 py-3">
         <button onClick={toggleMenu} className="md:hidden block">
           {!isMenuOpen ? (

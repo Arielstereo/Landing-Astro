@@ -26,7 +26,7 @@ const Slider = () => {
         <SwiperSlide>
           <div className="hero pt-48 text-start">
             <h1 className="text-3xl md:text-6xl font-bold text-pink-600 pl-8">
-              Bienvenidos a nuestra Web
+              Bienvenidos a Mi Tienda
             </h1>
             <h2 className="text-xl md:text-4xl text-black font-semibold pl-16 md:pl-32">Siguenos!</h2>
           </div>
@@ -40,8 +40,6 @@ const Slider = () => {
               Ideal para emprendedores
             </h1>
             <div className="mx-32 pt-8 font-bold text-lg">
-              <p>Este es un ejemplo de como puede ser tu web.</p>
-              <br />
               <p> Promociona tus productos y servicios!</p>
             </div>
           </div>
