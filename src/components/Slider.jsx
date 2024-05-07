@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const Slider = () => {
   return (
-    <div className="w-full h-[320px] md:h-[480px]">
+    <div className="w-full h-[320px] md:h-[400px] lg:h-[480px]">
       <Swiper
         spaceBetween={30}
         effect={"fade"}

@@ -10,7 +10,7 @@ const Navbar = () => {
   return (
     <nav className="w-full fixed bg-pink-400 z-50 top-0 py-2 shadow-lg shadow-black">
       <div className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 px-6 md:px-32 py-3">
-        <button onClick={toggleMenu} className="md:hidden block">
+        <button onClick={toggleMenu} className="lg:hidden block">
           {!isMenuOpen ? (
             <svg
               className="fill-current text-white"
@@ -39,12 +39,12 @@ const Navbar = () => {
           )}
         </button>
         <div
-          className={`md:block ${
+          className={`lg:block ${
             isMenuOpen ? "block" : "hidden"
           } md:items-center md:w-auto w-full order-3 md:order-1`}
         >
           <nav>
-            <ul className="md:flex items-center justify-between text-base text-white pt-4 md:pt-0">
+            <ul className="lg:flex items-center justify-between text-base text-white pt-4 md:pt-0">
               <li>
                 <a
                   className="inline-block no-underline hover:text-black py-2 px-4"
@@ -80,7 +80,6 @@ const Navbar = () => {
             </ul>
           </nav>
         </div>
-
         <div>
           <a
             className="flex gap-4 items-center font-bold text-slate-100 text-xl"
