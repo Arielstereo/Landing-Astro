@@ -3,7 +3,7 @@ import GoogleMap from "./GoogleMap.astro";
 import GoogleMapMobile from "./GoogleMapMobile.astro";
 ---
 
-<div id="location" class="flex flex-col xl:flex-row gap-16 mx-8 lg:mx-32 md:pt-32">
+<div id="location" class="flex flex-col xl:flex-row gap-16 lg:mx-32 lg:pt-32">
   <div class="px-3 md:px-0 mt-32">
     <div class="flex gap-2">
       <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"><path fill="#000" d="M12 11.5A2.5 2.5 0 0 1 9.5 9A2.5 2.5 0 0 1 12 6.5A2.5 2.5 0 0 1 14.5 9a2.5 2.5 0 0 1-2.5 2.5M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7"/></svg>
@@ -15,10 +15,10 @@ import GoogleMapMobile from "./GoogleMapMobile.astro";
       ¡Gracias por visitarnos! En <span class="font-semibold text-pink-600">Mi Tienda</span>, nos comprometemos a ofrecerte lo mejor en cuidado de la piel, bienestar y belleza.¡Esperamos verte pronto!
     </p>
   </div>
-  <div class="hidden md:block">
+  <div class="hidden sm:block">
     <GoogleMap />
   </div>
-  <div class="block md:hidden">
+  <div class="block sm:hidden">
     <GoogleMapMobile />
   </div>
 </div>

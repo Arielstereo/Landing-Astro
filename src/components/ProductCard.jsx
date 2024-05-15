@@ -13,7 +13,7 @@ const ProductCard = ({ title, description, img, animation }) => {
   return (
     <div
       data-aos={animation}
-      className="w-fit p-6 flex flex-col bg-slate-100 mx-auto gap-2 justify-center items-center shadow-lg shadow-black rounded-md"
+      className="p-6 flex flex-col bg-slate-100 mx-auto gap-2 shadow-lg shadow-black rounded-md"
     >
       <div className="bg-slate-800 w-full py-2 rounded-lg pl-4">
         <h2 className="text-xl text-slate-100 font-semibold">{title}</h2>
