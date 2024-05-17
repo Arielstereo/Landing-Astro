@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const Slider = () => {
   return (
-    <div className="w-full h-[320px] md:h-[400px] lg:h-[480px]">
+    <div className="w-full h-screen md:h-[400px] lg:h-[480px]">
       <Swiper
         spaceBetween={30}
         effect={"fade"}
@@ -28,15 +28,15 @@ const Slider = () => {
             <h1 className="text-3xl md:text-6xl font-bold text-pink-600 pl-8">
               Bienvenidos a Mi Tienda
             </h1>
-            <h2 className="text-xl md:text-4xl text-black font-semibold pl-16 md:pl-32">Siguenos!</h2>
+            <h2 className="text-2xl md:text-4xl text-black font-semibold pl-16 md:pl-32">Siguenos!</h2>
           </div>
         </SwiperSlide>
         <SwiperSlide>
           <div className="hero2 pt-32"></div>
         </SwiperSlide>
         <SwiperSlide>
-          <div className="hero3 pt-8 md:pt-32">
-            <h1 className="text-2xl md:text-6xl font-black">
+          <div className="hero3 pt-32">
+            <h1 className="text-3xl md:text-6xl font-black">
               Ideal para emprendedores
             </h1>
             <div className="mx-32 pt-8 font-bold text-lg">
