@@ -1,6 +1,7 @@
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import SalesModal from "./SalesModal";
 
 const ProductCard = ({ title, description, img, animation, price }) => {
   useEffect(() => {
@@ -25,6 +26,9 @@ const ProductCard = ({ title, description, img, animation, price }) => {
       </div>
       <div className="w-[300px] h-24 py-2">
         <span className="text-sm text-slate-500">{description}</span>
+      </div>
+      <div className="flex justify-center">
+        <SalesModal />
       </div>
     </div>
   );
