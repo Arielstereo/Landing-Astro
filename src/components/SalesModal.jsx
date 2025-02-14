@@ -8,9 +8,9 @@ const SalesModal = () => {
       width: 800,
       padding: "3em",
       showCloseButton: true,
-      color: "#fff",
+      color: "#000",
       backdrop: "rgba(192, 50, 114, 0.53)",
-      background: "#000",
+      background: "#fff",
       imageUrl:
         "https://images.pexels.com/photos/5868272/pexels-photo-5868272.jpeg?auto=compress&cs=tinysrgb&w=600",
       imageWidth: 500,
@@ -25,9 +25,9 @@ const SalesModal = () => {
   return (
     <button
       onClick={onClick}
-      className="bg-pink-400 hover:bg-pink-200 text-black font-semibold text-lg py-2 rounded-lg w-full"
+      className="text-yellow-300 hover:text-yellow-200 animate-pulse font-bold underline underline-offset-2"
     >
-      Promo del mes
+      PROMO DEL MES
     </button>
   );
 };

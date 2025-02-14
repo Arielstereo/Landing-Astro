@@ -1,7 +1,7 @@
 
 const ContactForm = () => {
   return (
-    <div className="container w-full">
+    <div className="w-full md:w-3/4 mx-auto mt-8">
       <form
         className="flex flex-col gap-4"
       >
@@ -71,9 +71,9 @@ const ContactForm = () => {
           </div>
           <button
             type="submit"
-            className="w-full bg-black hover:bg-slate-800 border hover:border-white hover:border-2 p-2 text-[#F1666A] rounded-md text-lg"
+            className="w-fit bg-emerald-600 hover:bg-esmerald-800 border hover:border-white hover:border-2 p-2 px-8 text-white rounded-md"
           >
-            Enviar consulta
+            Consultar | Reservar
           </button>
         </div>
       </form>

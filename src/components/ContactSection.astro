@@ -1,21 +1,24 @@
 ---
 import ContactForm from "./ContactForm";
 ---
-
-<section id="contact" class="pt-24">
-  <div class="flex flex-col-reverse lg:flex-row gap-16 justify-center items-center">
+<section class="relative flex flex-wrap lg:h-screen lg:items-center mt-32" id="contact">
+  <div class="relative h-64 w-full sm:h-96 lg:h-full lg:w-1/2">
     <img
-      class="lg:w-[600px] lg:h-[560px] rounded-xl shadow-lg shadow-black"
-      src="https://image.slidesdocs.com/responsive-images/background/a-3d-representation-of-a-relaxing-spa-treatment-powerpoint-background_77a8c8f8bd__960_540.jpg"
       alt=""
+      src="https://image.slidesdocs.com/responsive-images/background/a-3d-representation-of-a-relaxing-spa-treatment-powerpoint-background_77a8c8f8bd__960_540.jpg"
+      class="absolute inset-0 h-full w-full object-cover"
     />
-  <div class="w-[350px] md:w-[600px] flex flex-col gap-4">
-      <h2
-    class="text-[#F1666A] bg-black py-4 pl-8 rounded-lg text-2xl md:text-4xl font-semibold"
-  >
-    Contacto
-  </h2>
-    <ContactForm />
   </div>
+  <div class="w-full px-4 py-12 sm:px-6 sm:py-16 lg:w-1/2 lg:px-8 lg:py-24">
+    <div class="mx-auto max-w-lg text-center">
+      <h1 class="text-2xl font-bold sm:text-3xl">Contactanos</h1>
+
+      <p class="mt-4 text-gray-500">
+        Somos fabricantes de productos de alta calidad, con el objetivo de
+        satisfacer las necesidades de nuestros clientes.
+      </p>
+    </div>
+
+  <ContactForm />
   </div>
 </section>
